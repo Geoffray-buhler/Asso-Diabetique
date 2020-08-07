@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Menu from './components/menu/menu.jsx';
 import Streamer from './components/pages/streamer.jsx';
 import './App.css';
-import Head from './components/head/head'
+import Head from './components/head/head';
 
 const App = () => {
   const [Name, setName] = useState("");

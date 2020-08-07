@@ -11,10 +11,10 @@ const Menu = (props) =>{
                             <a className="btn btn-primary" onClick={() => {props.setName("Griffont39");props.setId("00")}}>Griffont39</a>
                         </li>
                         <li>
-                            <a className="btn btn-primary" onClick={() => {props.setName("BisonBlanc");props.setId("01")}}>BisonBlanc</a>
+                            <a className="btn btn-primary" onClick={() => {props.setName("Bison_Blanc");props.setId("01")}}>BisonBlanc</a>
                         </li>
                         <li>
-                            <a className="btn btn-primary" onClick={() => {props.setName("Elina");props.setId("02")}}>Elina</a>
+                            <a className="btn btn-primary" onClick={() => {props.setName("arienlys");props.setId("02")}}>Elina</a>
                         </li>
                         <li>
                             <a className="btn btn-primary" onClick={() => {props.setName("GamingQPG");props.setId("03")}}>GamingQPG</a>
@@ -38,7 +38,7 @@ const Menu = (props) =>{
                             <a className="btn btn-primary" onClick={() => {props.setName("Kanoutte51");props.setId("09")}}>Kanoutte51</a>
                         </li>
                         <li>
-                            <a className="btn btn-primary" onClick={() => {props.setName("Tacoss");props.setId("10")}}>Tacoss</a>
+                            <a className="btn btn-primary" onClick={() => {props.setName("tacoss51");props.setId("10")}}>Tacoss51</a>
                         </li>
                         <li>
                             <a className="btn btn-primary" onClick={() => {props.setName("JimbeauGG");props.setId("11")}}>JimbeauGG</a>

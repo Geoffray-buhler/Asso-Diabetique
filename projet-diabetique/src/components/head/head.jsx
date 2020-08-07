@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './head.css';
+import PaypalButton from '../paypal/paypal';
 
 const Head = (props) => {
 
@@ -19,7 +20,10 @@ const Head = (props) => {
         }
     }
 
-    return(<div className="d-flex justify-content-around w-100 h-100 mt-4 "> <button className="btn btn-secondary" onClick={changetheme}>Théme</button> <button className="btn btn-secondary" onClick={changechat}>chats</button> </div>)
+    return(<div className="d-flex justify-content-around w-100 h-100 mt-4 "> <button className="btn btn-secondary" onClick={changetheme}>Théme</button>
+                                                                             <PaypalButton></PaypalButton>
+                                                                             <button className="btn btn-secondary" onClick={changechat}>chats</button> 
+           </div>)
 }
 
 export default Head

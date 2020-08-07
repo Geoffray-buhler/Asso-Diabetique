@@ -11,7 +11,7 @@
                   },
                   {
                     "id":"1",
-                    "channel": "BisonBlanc",
+                    "channel": "Bison_Blanc",
                     "desc": "un bison tous blanc",
                     "imgdesc": "Une tete de bisonBlanc dans un rond",
                     "img": ""
@@ -33,6 +33,55 @@
                   {
                     "id":"4",
                     "channel":"linkonitotv",
+                    "desc":"",
+                    "imgdesc":"",
+                    "img":""
+                  },
+                  {
+                    "id":"5",
+                    "channel":"TheRiver16",
+                    "desc":"",
+                    "imgdesc":"",
+                    "img":""
+                  },
+                  {
+                    "id":"6",
+                    "channel":"Kira_Michiga",
+                    "desc":"",
+                    "imgdesc":"",
+                    "img":""
+                  },
+                  {
+                    "id":"7",
+                    "channel":"The_Nanarchist",
+                    "desc":"",
+                    "imgdesc":"",
+                    "img":""
+                  },
+                  {
+                    "id":"8",
+                    "channel":"Emulemoi",
+                    "desc":"",
+                    "imgdesc":"",
+                    "img":""
+                  },
+                  {
+                    "id":"9",
+                    "channel":"Kanoutte51",
+                    "desc":"",
+                    "imgdesc":"",
+                    "img":""
+                  },
+                  {
+                    "id":"10",
+                    "channel":"Tacoss51",
+                    "desc":"",
+                    "imgdesc":"",
+                    "img":""
+                  },
+                  {
+                    "id":"11",
+                    "channel":"JimbeauGG",
                     "desc":"",
                     "imgdesc":"",
                     "img":""
