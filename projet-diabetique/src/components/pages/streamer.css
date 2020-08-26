@@ -1,5 +1,114 @@
+/************************** Page d'accueil **************************/
+.welcomePage{
+    margin:auto;
+    color: var(--colorGrey)!important;
+    text-shadow: 1px 1px 1px black;
+}
+
+.txtBody{
+    margin: 5rem;
+}
+
+.endCitation{
+    text-shadow:none;
+    font-size: 18px;
+    color: lightslategrey;
+    text-shadow: 1px 1px 1px var(--colorGrey);
+    bottom: 0;
+    font-style: italic;
+    width: 20%;
+    bottom: 17%;
+    right: 22%;
+    position: absolute;
+    z-index: 4;
+}
+/************************** Mise en forme des noms individuels **************************/
+.streamerPage{
+    height:100%;
+}
+
+.custom-bg{
+    width:100%;
+}
+
+.streamerPage h1{
+    margin: 1.5rem 0;
+    text-align:center;
+}
+
+.streamerPage p{
+    margin: 0 2.5rem;
+    text-align: justify;
+    font-size:1.3rem;
+    padding-left: 1rem;
+    margin-bottom:2rem;
+    color: var(--colorGrey);
+}
+
+/************* themes *************/
+.TitleLight{
+    color: var(--colorOrange);
+    text-shadow: 1px 1px 1px black;
+}
+
+.DescLight{
+    border-left: 5px solid var(--colorOrange);
+}
+
+.TitleDark{
+    color: var(--colorCyan);
+    text-shadow: 1px 1px 1px var(--colorYellow);
+}
+
+.DescDark{
+    border-left: 5px solid var(--colorCyan);
+}
+
+/************************** Elements commun **************************/
 .imgsize{ 
     position: absolute;
-    z-index: 0;
-    right: -32%;
+    z-index: -2;
+    right:0;
+    bottom: -5px;
+}
+
+iframe{
+    width:57rem;
+    height:32rem;
+}
+
+
+
+
+/** ~~~~~~~~~~~~~~~~~~~~~~~@MEDIA~~~~~~~~~~~~~~~~~~~~~~~ **/
+@media screen and (max-width: 1100px) {
+    iframe{
+        width: 45rem;
+        height: 30rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    iframe{
+        width: 35rem;
+        height: 25rem;
+    }
+
+    .imgsize{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .endCitation{
+        display:none;
+    }
+
+    .streamerPage p{
+        display:none;
+    }
+
+    .streamerPage h1{
+        margin:unset;
+    }
 }

@@ -1,0 +1,115 @@
+/************************** Mise en forme de la liste **************************/
+.menuStreamers{
+    text-align: left;
+    height:100%;
+	box-sizing: border-box;
+	display:flex;
+}
+
+.listStreamers{
+    height:100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+	justify-content: space-around;
+	margin-left: -2.5rem;
+}
+
+/************************** Mise en forme des noms individuels **************************/
+.btnStream{
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius:50px;
+  font-weight: bold;
+}
+
+.btnStream::before{
+	transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	content: '';
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50px;
+	width: 25%;
+}
+
+.btnStream:hover::before{
+	width: 100%;
+}
+
+.btnCollapse{
+	visibility:
+}
+
+/************* Theme *************/
+/****** light ******/
+.btnLight{
+	color: var(--colorGrey);
+}
+
+.btnLight::before{
+	background: var(--colorOrange);
+}
+
+.btnLight:hover::before{
+	background: var(--colorOrange);
+}
+
+.btnLight a{
+	mix-blend-mode: difference;
+}
+/****** dark ******/
+.btnDark{
+	color: var(--colorCyan);
+}
+
+.btnDark::before{
+	background: var(--colorPurple);
+}
+
+.btnDark:hover::before{
+	background: var(--colorPurple);
+}
+
+.btnDark a{
+	mix-blend-mode: screen;
+}
+
+
+
+
+
+/** ~~~~~~~~~~~~~~~~~~~~~~~@MEDIA~~~~~~~~~~~~~~~~~~~~~~~ **/
+@media screen and (max-width: 880px) {
+	.logoAsso{
+		display:none;
+	}
+
+	a{
+	overflow-wrap: break-word;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.btnStream{
+		width: 33%;
+		float:left;
+		margin-bottom:1rem;
+	}
+
+	.menuStreamers{
+		height:unset;
+		margin-top: 0.5rem;
+	}
+
+	.listStreamers{
+		display:inline;
+	}
+}

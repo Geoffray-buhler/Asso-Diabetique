@@ -1,0 +1,111 @@
+a:hover{
+    text-decoration: none;
+    color: rgb(129, 29, 29);
+}
+
+button:focus{
+    outline:none;
+}
+
+/************************** nom central **************************/
+.siteName{
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+}
+
+/************************** Bouttons thèmes et Chat **************************/
+.btnHeader{
+    width:10rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.btnFunctions{
+  color:var(--colorGreen);
+}
+
+.btnFunctions::after,
+.btnFunctions::before{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 20%;
+      height: 20%;
+      border: 3px solid;
+      transition: all 0.6s ease;
+      border-radius: 2px;
+}
+.btnFunctions::after{
+      bottom: 0;
+      right: 0;
+      border-top-color: transparent;
+      border-left-color: transparent;
+      border-bottom-color:var(--colorGreen);
+      border-right-color:var(--colorGreen);
+}
+.btnFunctions::before{
+      top: 0;
+      left: 0;
+      border-bottom-color: transparent;
+      border-right-color: transparent;
+      border-top-color: var(--colorGreen);
+      border-left-color: var(--colorGreen);
+}
+.btnFunctions:hover:after, .btnFunctions:hover:before{
+      width: 100%;
+      height: 100%;
+      color: white;
+}
+
+/************************** Bouton Don **************************/
+.btnDon {  
+    border: 6px solid transparent;
+    border-image: linear-gradient(to bottom left, var(--colorLightYellow) 0%, var(--colorRed) 100%);
+    border-image-slice: 1;
+    background: none;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.btnDon:hover {
+    background-color: white;
+    background: linear-gradient(to bottom left, var(--colorLightYellow), var(--colorRed));
+    color: black;
+    position: relative;
+    box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 20px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 20px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 20px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 20px rgba(232, 76, 61, 0);}}
+
+/************* Theme *************/
+.donLight{ 
+    color: var(--colorRed);
+}
+
+.donDark{ 
+    color: var(--colorYellow);
+}
+
+/** ~~~~~~~~~~~~~~~~~~~~~~~@MEDIA~~~~~~~~~~~~~~~~~~~~~~~ **/
+@media screen and (max-width: 768px) {
+    .btnHeader{
+        width: unset;
+    }
+
+}
