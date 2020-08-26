@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactTwitchEmbedVideo from "react-twitch-embed-video";
-
-
+import './chaine.css';
 
 const Chaine = (props) =>{
     

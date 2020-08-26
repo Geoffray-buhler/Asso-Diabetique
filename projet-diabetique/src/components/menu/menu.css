@@ -17,6 +17,7 @@
 
 /************************** Mise en forme des noms individuels **************************/
 .btnStream{
+  cursor: pointer;
   position: relative;
   font-size: 20px;
   letter-spacing: 0.1rem;
