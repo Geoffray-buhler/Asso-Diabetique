@@ -10,19 +10,21 @@ const Menu = (props) =>{
                         <li className="btnStream btnLight">
                             <a onClick={() => {props.setName("Bison_Blanc");props.setId("01")}}>BisonBlanc</a>
                         </li>
-<<<<<<< Updated upstream
+
                         <li>
-                            <a className="btn btn-primary" onClick={() => {props.setName("BisonBlanc");props.setId("01")}}>BisonBlanc</a>
+                            <a className="btn btn-primary" onClick={() => {props.setName("Bison_Blanc");props.setId("01")}}>BisonBlanc</a>
                         </li>
                         <li>
+
                             <a className="btn btn-primary" onClick={() => {props.setName("Elina");props.setId("02")}}>Elina</a>
-=======
+
                         <li className="btnStream btnLight">
                             <a onClick={() => {props.setName("Arienlys");props.setId("02")}}>Elina</a>
+                            
                         </li>
                         <li className="btnStream btnLight">
                             <a onClick={() => {props.setName("Emulemoi");props.setId("08")}}>Emulemoi</a>
->>>>>>> Stashed changes
+
                         </li>
                         <li className="btnStream btnLight">
                             <a onClick={() => {props.setName("GamingQPG");props.setId("03")}}>GamingQPG</a>
@@ -45,13 +47,13 @@ const Menu = (props) =>{
                         <li className="btnStream btnLight">
                             <a onClick={() => {props.setName("Linkonitotv");props.setId("04")}}>Linkonitotv</a>
                         </li>
-<<<<<<< Updated upstream
                         <li>
+
                             <a className="btn btn-primary" onClick={() => {props.setName("Tacoss");props.setId("10")}}>Tacoss</a>
-=======
+
                         <li className="btnStream btnLight">
                             <a onClick={() => {props.setName("Tacoss51");props.setId("10")}}>Tacoss51</a>
->>>>>>> Stashed changes
+
                         </li>
                         <li className="btnStream btnLight">
                             <a onClick={() => {props.setName("The_Nanarchist");props.setId("07")}}>The Nanarchist</a>

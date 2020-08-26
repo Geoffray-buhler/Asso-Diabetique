@@ -11,17 +11,10 @@
                   },
                   {
                     "id":"1",
-<<<<<<< Updated upstream
-                    "channel": "BisonBlanc",
-                    "desc": "un bison tous blanc",
-                    "imgdesc": "Une tete de bisonBlanc dans un rond",
-                    "img": ""
-=======
                     "channel": "Bison_Blanc",
                     "desc": "Bison blanc, gamer et drôle d'animal précurseur de ses pitreries, au caractère bien trempé, à la douce folie communicative.Des streams drôles, détendus et variés guidés par ses envies pour le plaisir de vos yeux (et vos oreilles !)",
                     "imgdesc": "Avatar Bison",
                     "img": "https://nsa40.casimages.com/img/2020/08/26/200826012306950738.png"
->>>>>>> Stashed changes
                   },
                   {
                     "id":"2",
@@ -40,11 +33,6 @@
                   {
                     "id":"4",
                     "channel":"linkonitotv",
-<<<<<<< Updated upstream
-                    "desc":"",
-                    "imgdesc":"",
-                    "img":""
-=======
                     "desc":"Streameur amateur fan de jeu vidéo depuis toujours (Zelda, Resident evil et Final Fantasy...), je joue et streame principalement du retro, toutes plateformes confondues. Je speedrun et réalise le SnesChallenge. Ma devise : faire de la merde, mais le faire bien.",
                     "imgdesc":"Avatar Linkonito",
                     "img":"https://nsa40.casimages.com/img/2020/08/26/200826013130989681.png"
@@ -52,8 +40,8 @@
                   {
                     "id":"5",
                     "channel":"TheRiver16",
-                    "desc":"Moi mon défi c'est le Gamecube challenge! je veux finir tous les jeux de cette console en stream et même tous les posséder en physique si possible!",
-                    "imgdesc":"Avatar River",
+                    "desc":"",
+                    "imgdesc":"",
                     "img":""
                   },
                   {
@@ -61,7 +49,6 @@
                     "channel":"Kira_Michiga",
                     "desc":"キラミチガ. Streamer faisant principalement des jeux de simulation, avec mon franc parlé. Je suis aussi le présentateur de l'Epic Fail Challenge.",
                     "imgdesc":"Avatar Kafé",
-                    "img":""
                   },
                   {
                     "id":"7",
@@ -83,6 +70,7 @@
                     "desc":"Moi c'est Kanoute ! Joueur expérimenté dans la connerie et le fail !! Ici de la bonne humeur et de la découverte. Bienvenue à toi , installe toi dans le canap et mets toi à l'aise , tu es ici chez toi !",
                     "imgdesc":"Avatar Kanoutte",
                     "img":"https://nsa40.casimages.com/img/2020/08/26/200826012308115586.png"
+
                   },
                   {
                     "id":"10",
@@ -104,7 +92,6 @@
                     "desc":"Streamer sans influence, même pas sur lui même. Touche a tout, Flemmard accompli, génie incompris.Je chill sur ma vague de bonne humeur !",
                     "imgdesc":"Avatar Imeqy",
                     "img":"https://nsa40.casimages.com/img/2020/08/26/200826012307833865.png"
->>>>>>> Stashed changes
                   }
                 ]
         }
