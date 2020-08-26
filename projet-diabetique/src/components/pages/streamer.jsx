@@ -14,24 +14,29 @@ const Streamer = (props) => {
     }, [props.id])
     
     if(infostreamer === "" || infostreamer === undefined){
-        return(<div className="container">
-                    <div className="row">
-                        <div className="col-11 custom-bg text-light">
-                            <h1>Site de l'event contre le diabete !!!</h1>
-                            <p>cet event a pour but de collecter un certain nombre de dons et il sera remis à * * * * * </p>
+        return(<div className="container d-flex col-lg-10 col-md-9 col-sd-12">
+                    <div className="row welcomePage">
+                        <div className="custom-bg">
+                            <h1>Bienvenue sur ce site dédié à nos streams caritatifs</h1>
+                            <p className="txtBody">Choisissez un streamer dans la liste ci-contre et profitez! </p>
+                            <p className="endCitation">Il n'y a pas de petits dons, seulement de grands coeurs.</p> 
+                            <img className="imgsize" src="https://nsa40.casimages.com/img/2020/08/24/200824112948565702.png" alt="merci"/>                                             
                         </div>
+                        
                     </div>
                 </div>
         );
-    }else{
+    }
+    
+    else{
         return(
-            <div className="container">
-                <div className="row">
-                    <div className="col-11 custom-bg text-light">
-                        <h1>{infostreamer.channel}</h1>
-                        <h1>{infostreamer.desc}</h1>
-                        <img className="imgsize" src={infostreamer.img} alt={infostreamer.imgdesc}/>
+            <div className="container col-10 col-md-9">
+                <div className="row streamerPage">
+                    <div className="custom-bg ">
+                        <h1 className="TitleLight">{infostreamer.channel}</h1>
+                        <p className="DescLight">{infostreamer.desc}</p>
                         <Chaine name={props.name} theme={props.theme} chat={props.chat}/>
+                        <img className="imgsize" src={infostreamer.img} alt={infostreamer.imgdesc}/>
                     </div>
                 </div>
             </div>

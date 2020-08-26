@@ -15,10 +15,13 @@ const App = () => {
     <div className="App">
       <div className="App-header">
         <Head setchat={setchat} settheme={settheme} theme={theme} chat={chat}/>
-        <div className="container-fluid all-places">
-          <div className="row">
+        <div className="container-fluid">
+          <div className="row bodyContent">
             <Menu setName={setName} setId={setId}></Menu>
             <Streamer theme={theme} chat={chat} name={Name} id={Id}></Streamer>
+          </div>
+          <div className="footer barre barreLight">
+            <p className="infoDons">Tous les dons sont déductibles des impôts. N'hésitez pas à demander une attestation.</p>
           </div>
         </div>
       </div>

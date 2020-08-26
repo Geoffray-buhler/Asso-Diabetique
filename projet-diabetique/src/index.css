@@ -1,3 +1,8 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/************************** Themes **************************/
+.lightTheme{
+  background-image: url(../src/components/images/fondpixel.png);
 }
+
+.darkTheme{
+  background-image: url(../src/components/images/fondsombre3.png);
+}
+
+/************************** body, entre le header et le footer  **************************/
+
+.bodyContent{
+  height:84vh;
+}
+
+
